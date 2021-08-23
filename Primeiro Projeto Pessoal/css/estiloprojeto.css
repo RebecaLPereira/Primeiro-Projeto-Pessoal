@@ -1,0 +1,61 @@
+nav {
+    height: 50px;
+    background-color: yellow;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(88, 193, 224)!important;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 13px 16px;
+}
+
+.icones {
+    float: right;
+}
+
+.icones img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+    transition: 1s;
+}
+
+.icones img:hover {
+    transform: scale(1.2);
+}
+
+.carousel-item img {
+    height: 600px;
+}
+
+.resumo {
+    border: 2px solid rgba(228, 225, 59, 0);
+    border-radius: 15px;
+    background-color: rgba(252, 237, 32, 0.774);
+    text-align: justify;
+}
+
+.row {
+    margin: 10px;
+    --bs-gutter-x: 0px!important;
+    padding: 10px;
+}
+
+.col-8 {
+    padding: 0px 12px;
+}
+
+h2 {
+    font: monospace;
+}
+
+.font {
+    font-size: 20px;
+}
